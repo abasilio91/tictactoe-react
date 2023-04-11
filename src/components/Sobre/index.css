@@ -1,10 +1,6 @@
-h1 {
-    font-family: Montserrat-Bold;
+a {
+    font-weight: bold;
     font-size: 14px;
     color: #707070;
-    width: 50px;
-    height: 17px;
-    position: fixed;
-    right: 240px;
-    top: 21px;
+    text-decoration: none;
 }
