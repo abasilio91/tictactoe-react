@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 
-function Sobre() {
+const Sobre = () => {
     return (
-        <a href='#'>SOBRE</a>
+        <a href='#' className='sobre'>SOBRE</a>
     )
 }
 

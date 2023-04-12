@@ -1,0 +1,22 @@
+.top-line {
+    border-radius: 5px;
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-fifth);
+
+}
+.center-line {
+    border-radius: 5px;
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-fifth);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bottom-line {
+    border-radius: 5px;
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-fifth);
+}

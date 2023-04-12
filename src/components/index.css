@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+}
+
+.header> .logo {
+    margin-left: 15px;
+}
