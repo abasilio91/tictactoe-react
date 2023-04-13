@@ -1,0 +1,6 @@
+.tabuleiro {
+    display: flex;
+    width: 290px;
+    height: 290px;
+    background-color: var(--color-zero);
+}
