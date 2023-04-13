@@ -7,7 +7,7 @@ import './index.css';
 const Header = () => {
     return (
     <div className="header">
-        <Logo className="header-logo"/>
+        <Logo />
         <Sobre />
         <Menu />
     </div>
