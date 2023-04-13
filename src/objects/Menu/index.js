@@ -3,11 +3,11 @@ import './index.css';
 
 const Menu = () => {
     return (
-        <>
-        <div className="top-line" />
-        <div className="center-line" />
-        <div className="bottom-line" />
-        </>
+        <a href="#Menu" className="menu">
+            <span className="center">
+                Menu
+            </span>
+        </a>
     )
 }
 
