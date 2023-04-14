@@ -1,13 +1,12 @@
 import React from "react";
+import './index.css';
 import Base from '../../objects/Base';
 
-const Tabuleiro = ({children}) => {
+const Tabuleiro = () => {
     return (
-        <>
-            <Base className='base'>
-                {children}
-            </Base>
-        </>
+        <div className="bed-rock">
+            <Base />
+        </div>
     )
 
 }
