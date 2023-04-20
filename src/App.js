@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Tabuleiro from './components/Tabuleiro';
-import CheckEventos from './objects/CheckEventos';
+import Checkbox from './objects/Checkbox';
 
 import './App.css'
 
@@ -9,7 +9,7 @@ const App = () => {
     <main className='app'>
       <Header />
       <Tabuleiro />
-      <CheckEventos />
+      <Checkbox cb_id="show-events" value="show" content="Mostrar eventos" />
     </main>
   );
 }
