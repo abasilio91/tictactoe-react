@@ -1,11 +1,11 @@
 import React from "react";
 import './index.css';
-import Base from '../../objects/Base';
+import GridButtons from '../GridButtons';
 
 const Tabuleiro = () => {
     return (
-        <div className="bed-rock">
-            <Base />
+        <div className="tabuleiro">
+            <GridButtons />
         </div>
     )
 

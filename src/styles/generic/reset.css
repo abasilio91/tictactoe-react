@@ -4,7 +4,12 @@ body {
     margin: 0px;
 }
 
-ul, ol {
+ul, ol, li {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
     padding: 0;
 }

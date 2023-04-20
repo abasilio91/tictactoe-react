@@ -1,0 +1,9 @@
+.grid-left, .grid-right, .grid-top, .grid-bottom {
+    height: 5px;
+    background-color: var(--color-third);
+    border-radius: 5px;
+}
+
+.grid-left, .grid-right {
+    transform: rotate(90deg);
+}
