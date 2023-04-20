@@ -2,6 +2,10 @@
     color: var(--color-fourth);
     font-size: var(--size-small);
     padding-left: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .check-label::selection {
@@ -17,4 +21,14 @@
     border: 3px solid var(--color-fourth);
     display: inline-block;
     box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.input:checked + .check-label::before {
+    background-color: var(--color-first);
+}
+
+.input {
+    display: none;
 }
