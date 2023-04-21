@@ -1,6 +1,16 @@
 .tabuleiro {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
     background-color: var(--color-zero);
     border-radius: var(--spacing-radius);
     box-shadow: 0 3px 6px 0 var(--color-light-negative);
-    padding: 15px;
+}
+
+.tabuleiro > .grid-buttons, .grid-wrapper {
+    position: absolute;
+    height: 90%;
+    width: 90%;
 }

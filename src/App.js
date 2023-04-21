@@ -1,7 +1,6 @@
 import Header from './components/Header';
 import Tabuleiro from './components/Tabuleiro';
 import Checkbox from './objects/Checkbox';
-
 import './App.css'
 
 const App = () => {
